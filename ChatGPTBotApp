@@ -1,9 +1,9 @@
 import openai
 import gradio
 
-openai.api_key = "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"
+openai.api_key = "insert personal openai api key"
 
-messages = [{"role": "system", "content": "You are a personal workout trainer and dietian"}]
+messages = [{"role": "system", "content": "You are a personal workout trainer and dietitian"}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
